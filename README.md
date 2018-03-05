@@ -1,34 +1,16 @@
-# lamassu-machine
+# KK-machine
 The software that runs the Lamassu Bitcoin Machine.
 
 ## Installing
 
 ```
-git clone https://github.com/lamassu/lamassu-machine.git
+git clone https://github.com/KryptoKiosk/lamassu-machine.git
 cd lamassu-machine
 npm install
 ./setup.sh
 ```
 
 **Prerequisites**: You'll need Node.js and Ruby installed on your machine. There packages for these on most operating systems. You'll also need compiling tools. See here: https://github.com/TooTallNate/node-gyp#installation.
-
-### Mac OS X local install for testing and development
-
-```
-git clone https://github.com/lamassu/lamassu-machine.git
-cd lamassu-machine
-
-brew install nvm
-# then following brew's install notes on nvm
-nvm install 0.10
-nvm use 0.10
-rm -rf ./node_modules
-# remove jpeg and manatee from package.json
-# comment out in lib/brain.js around line 850: this._ensureRaqiaRegistration so that it goes to _idleTwoWay without requiring a raqia registration
-npm install --no-optional
-npm install mv
-
-./setup
 
 cp licenses.sample.json licenses.json
 
