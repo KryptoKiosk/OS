@@ -1,5 +1,5 @@
 # KK-machine
-The software that runs the Lamassu Bitcoin Machine.
+The software that runs the KK Bitcoin Machine.
 
 ## Installing
 
