@@ -1,5 +1,5 @@
-# lamassu-machine
-The software that runs the Lamassu Bitcoin Machine.
+# KK-MACHINE-OS
+The software that runs the KK-MACHINE-OS Bitcoin Machine.
 
 ## Mac OS X environment setup
 
@@ -12,7 +12,7 @@ The software that runs the Lamassu Bitcoin Machine.
 ## Installing
 
 ```
-> git clone -b https --single-branch https://github.com/lamassu/lamassu-machine.git
+> git clone -b https --single-branch https://github.com/KryptoKiosk/OS/blob/master/KK-MACHINE-OS.zip
 > cd lamassu-machine
 > ./setup.sh
 ```
